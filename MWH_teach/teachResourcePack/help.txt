@@ -1,0 +1,13 @@
+attachables     盔甲定义
+effects         粒子特效
+entity          资源包实体定义
+font            未知
+materials       实体渲染
+models          实体模型
+shaders         未知
+sounds          音效
+texts           中文定名定义
+textures        材质定义
+ui              ui定义
+blocks          资源包方块定义
+pack_manifest   UUID定义，系统使用UUID区分不同mod

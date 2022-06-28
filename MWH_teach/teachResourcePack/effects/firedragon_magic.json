@@ -1,0 +1,81 @@
+{
+  "particleeffect": {
+    "rotationspeed": {
+      "max": "0.0",
+      "min": "0.0"
+    },
+    "activetime": {
+      "value": "10.0"
+    },
+    "inactivetime": {
+      "value": "0.0"
+    },
+    "timetolive": {
+      "max": "2.0",
+      "min": "1.8"
+    },
+    "particlesize": {
+      "max": "0.4 0.4",
+      "min": "0.2 0.2"
+    },
+    "velocity": {
+      "max": "2.6",
+      "min": "1.0"
+    },
+    "enableloop": {
+      "enable": "true"
+    },
+    "sizedelta": {
+      "add": "0.1",
+      "mul": "0.75"
+    },
+    "rotation": {
+      "max": "0.0",
+      "min": "0.0"
+    },
+    "faceCameraMode": {
+      "value": "Rotate XYZ"
+    },
+    "scaled": {
+      "enable": "true"
+    },
+    "relative": {
+      "enable": "false"
+    },
+    "sorted": {
+      "enable": "false"
+    },
+    "fixedscreensize": {
+      "enable": "false"
+    },
+    "texture": {
+      "name": "textures/particle/fireflake_0"
+    },
+    "blend": {
+      "name": "blend"
+    },
+    "dampingforce": {
+      "value": "0.6"
+    },
+    "numparticles": {
+      "value": "100"
+    },
+    "emittersize": {
+      "value": "0.0 0.0 0.0"
+    },
+    "emissionrate": {
+      "max": "30.0",
+      "min": "10.0"
+    },
+    "material": {
+      "name": "Materials/Particle.xml"
+    },
+    "constantforce": {
+      "value": "0.0 -1.0 0.0"
+    },
+    "direction": {
+      "max": "0.2 0.2 0.2",
+      "min": "-0.2 -0.2 -0.2"
+    }
+  }
+}

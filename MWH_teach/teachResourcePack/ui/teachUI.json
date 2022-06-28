@@ -1,0 +1,1197 @@
+{
+   "button_label" : {
+      "alpha" : "$control_alpha",
+      "color" : "$label_color",
+      "font_scale_factor" : "$label_font_scale_factor",
+      "font_size" : "$label_font_size",
+      "font_type" : "smooth",
+      "layer" : "$label_layer",
+      "max_size" : [ "100%", "100%" ],
+      "offset" : "$label_offset",
+      "shadow" : false,
+      "text" : "$label_text",
+      "text_alignment" : "center",
+      "type" : "label"
+   },
+   "default" : {
+      "alpha" : "$control_alpha",
+      "is_new_nine_slice" : "$is_new_nine_slice",
+      "layer" : "$texture_layer",
+      "nine_slice_buttom" : "$nine_slice_buttom",
+      "nine_slice_left" : "$nine_slice_left",
+      "nine_slice_right" : "$nine_slice_right",
+      "nine_slice_top" : "$nine_slice_top",
+      "nineslice_size" : "$nineslice_size",
+      "texture" : "$default_texture",
+      "type" : "image"
+   },
+   "hover" : {
+      "alpha" : "$control_alpha",
+      "is_new_nine_slice" : "$is_new_nine_slice",
+      "layer" : "$texture_layer",
+      "nine_slice_buttom" : "$nine_slice_buttom",
+      "nine_slice_left" : "$nine_slice_left",
+      "nine_slice_right" : "$nine_slice_right",
+      "nine_slice_top" : "$nine_slice_top",
+      "nineslice_size" : "$nineslice_size",
+      "texture" : "$hover_texture",
+      "type" : "image"
+   },
+   "m2b0@common.button" : {
+      "$control_alpha" : 1.0,
+      "$default_texture" : "textures/ui/gui1",
+      "$hover_texture" : "textures/ui/gui2",
+      "$is_new_nine_slice" : false,
+      "$label_color" : [ 1, 1, 1 ],
+      "$label_font_scale_factor" : 0.8199999928474426,
+      "$label_font_size" : "normal",
+      "$label_layer" : 3,
+      "$label_offset" : [ 0, 0 ],
+      "$label_text" : "功能一",
+      "$nine_slice_buttom" : 0,
+      "$nine_slice_left" : 0,
+      "$nine_slice_right" : 0,
+      "$nine_slice_top" : 0,
+      "$nineslice_size" : [ 0, 0, 0, 0 ],
+      "$pressed_button_name" : "%teachUI.click",
+      "$pressed_texture" : "textures/ui/gui2",
+      "$texture_layer" : 2,
+      "alpha" : 1.0,
+      "anchor_from" : "top_middle",
+      "anchor_to" : "top_middle",
+      "bindings" : [
+         {
+            "binding_collection_name" : "",
+            "binding_condition" : "always_when_visible",
+            "binding_type" : "collection_details"
+         }
+      ],
+      "button_mappings" : [],
+      "clip_offset" : [ 0, 0 ],
+      "clips_children" : false,
+      "controls" : [
+         {
+            "default@teachUI.default" : {}
+         },
+         {
+            "hover@teachUI.hover" : {}
+         },
+         {
+            "pressed@teachUI.pressed" : {}
+         },
+         {
+            "button_label@teachUI.button_label" : {}
+         }
+      ],
+      "draggable" : "not_draggable",
+      "enabled" : true,
+      "is_handle_button_move_event" : true,
+      "layer" : 13,
+      "max_size" : [ 0, 0 ],
+      "min_size" : [ 0, 0 ],
+      "offset" : [ 0, 3 ],
+      "priority" : 0,
+      "propagate_alpha" : false,
+      "size" : [ 38, 19 ],
+      "visible" : true
+   },
+   "m2b1@common.button" : {
+      "$control_alpha" : 1.0,
+      "$default_texture" : "textures/ui/gui1",
+      "$hover_texture" : "textures/ui/gui2",
+      "$is_new_nine_slice" : false,
+      "$label_color" : [ 1, 1, 1 ],
+      "$label_font_scale_factor" : 0.8199999928474426,
+      "$label_font_size" : "normal",
+      "$label_layer" : 3,
+      "$label_offset" : [ 0, 0 ],
+      "$label_text" : "功能二",
+      "$nine_slice_buttom" : 0,
+      "$nine_slice_left" : 0,
+      "$nine_slice_right" : 0,
+      "$nine_slice_top" : 0,
+      "$nineslice_size" : [ 0, 0, 0, 0 ],
+      "$pressed_button_name" : "%teachUI.click",
+      "$pressed_texture" : "textures/ui/gui2",
+      "$texture_layer" : 2,
+      "alpha" : 1.0,
+      "anchor_from" : "top_middle",
+      "anchor_to" : "top_middle",
+      "bindings" : [
+         {
+            "binding_collection_name" : "",
+            "binding_condition" : "always_when_visible",
+            "binding_type" : "collection_details"
+         }
+      ],
+      "button_mappings" : [],
+      "clip_offset" : [ 0, 0 ],
+      "clips_children" : false,
+      "controls" : [
+         {
+            "default@teachUI.default" : {}
+         },
+         {
+            "hover@teachUI.hover" : {}
+         },
+         {
+            "pressed@teachUI.pressed" : {}
+         },
+         {
+            "button_label@teachUI.button_label" : {}
+         }
+      ],
+      "draggable" : "not_draggable",
+      "enabled" : true,
+      "is_handle_button_move_event" : true,
+      "layer" : 17,
+      "max_size" : [ 0, 0 ],
+      "min_size" : [ 0, 0 ],
+      "offset" : [ 0, 22 ],
+      "priority" : 0,
+      "propagate_alpha" : false,
+      "size" : [ 38, 19 ],
+      "visible" : true
+   },
+   "m2b2@common.button" : {
+      "$control_alpha" : 1.0,
+      "$default_texture" : "textures/ui/gui1",
+      "$hover_texture" : "textures/ui/gui2",
+      "$is_new_nine_slice" : false,
+      "$label_color" : [ 1, 1, 1 ],
+      "$label_font_scale_factor" : 0.8199999928474426,
+      "$label_font_size" : "normal",
+      "$label_layer" : 3,
+      "$label_offset" : [ 0, 0 ],
+      "$label_text" : "功能一",
+      "$nine_slice_buttom" : 0,
+      "$nine_slice_left" : 0,
+      "$nine_slice_right" : 0,
+      "$nine_slice_top" : 0,
+      "$nineslice_size" : [ 0, 0, 0, 0 ],
+      "$pressed_button_name" : "%teachUI.click",
+      "$pressed_texture" : "textures/ui/gui2",
+      "$texture_layer" : 2,
+      "alpha" : 1.0,
+      "anchor_from" : "top_middle",
+      "anchor_to" : "top_middle",
+      "bindings" : [
+         {
+            "binding_collection_name" : "",
+            "binding_condition" : "always_when_visible",
+            "binding_type" : "collection_details"
+         }
+      ],
+      "button_mappings" : [],
+      "clip_offset" : [ 0, 0 ],
+      "clips_children" : false,
+      "controls" : [
+         {
+            "default@teachUI.default" : {}
+         },
+         {
+            "hover@teachUI.hover" : {}
+         },
+         {
+            "pressed@teachUI.pressed" : {}
+         },
+         {
+            "button_label@teachUI.button_label" : {}
+         }
+      ],
+      "draggable" : "not_draggable",
+      "enabled" : true,
+      "is_handle_button_move_event" : true,
+      "layer" : 21,
+      "max_size" : [ 0, 0 ],
+      "min_size" : [ 0, 0 ],
+      "offset" : [ 0, 41 ],
+      "priority" : 0,
+      "propagate_alpha" : false,
+      "size" : [ 38, 19 ],
+      "visible" : true
+   },
+   "m2b3@common.button" : {
+      "$control_alpha" : 1.0,
+      "$default_texture" : "textures/ui/gui1",
+      "$hover_texture" : "textures/ui/gui2",
+      "$is_new_nine_slice" : false,
+      "$label_color" : [ 1, 1, 1 ],
+      "$label_font_scale_factor" : 0.8199999928474426,
+      "$label_font_size" : "normal",
+      "$label_layer" : 3,
+      "$label_offset" : [ 0, 0 ],
+      "$label_text" : "功能一",
+      "$nine_slice_buttom" : 0,
+      "$nine_slice_left" : 0,
+      "$nine_slice_right" : 0,
+      "$nine_slice_top" : 0,
+      "$nineslice_size" : [ 0, 0, 0, 0 ],
+      "$pressed_button_name" : "%teachUI.click",
+      "$pressed_texture" : "textures/ui/gui2",
+      "$texture_layer" : 2,
+      "alpha" : 1.0,
+      "anchor_from" : "top_middle",
+      "anchor_to" : "top_middle",
+      "bindings" : [
+         {
+            "binding_collection_name" : "",
+            "binding_condition" : "always_when_visible",
+            "binding_type" : "collection_details"
+         }
+      ],
+      "button_mappings" : [],
+      "clip_offset" : [ 0, 0 ],
+      "clips_children" : false,
+      "controls" : [
+         {
+            "default@teachUI.default" : {}
+         },
+         {
+            "hover@teachUI.hover" : {}
+         },
+         {
+            "pressed@teachUI.pressed" : {}
+         },
+         {
+            "button_label@teachUI.button_label" : {}
+         }
+      ],
+      "draggable" : "not_draggable",
+      "enabled" : true,
+      "is_handle_button_move_event" : true,
+      "layer" : 25,
+      "max_size" : [ 0, 0 ],
+      "min_size" : [ 0, 0 ],
+      "offset" : [ 0, 60 ],
+      "priority" : 0,
+      "propagate_alpha" : false,
+      "size" : [ 38, 19 ],
+      "visible" : true
+   },
+   "m2b4@common.button" : {
+      "$control_alpha" : 1.0,
+      "$default_texture" : "textures/ui/gui1",
+      "$hover_texture" : "textures/ui/gui2",
+      "$is_new_nine_slice" : false,
+      "$label_color" : [ 1, 1, 1 ],
+      "$label_font_scale_factor" : 0.8199999928474426,
+      "$label_font_size" : "normal",
+      "$label_layer" : 3,
+      "$label_offset" : [ 0, 0 ],
+      "$label_text" : "功能一",
+      "$nine_slice_buttom" : 0,
+      "$nine_slice_left" : 0,
+      "$nine_slice_right" : 0,
+      "$nine_slice_top" : 0,
+      "$nineslice_size" : [ 0, 0, 0, 0 ],
+      "$pressed_button_name" : "%teachUI.click",
+      "$pressed_texture" : "textures/ui/gui2",
+      "$texture_layer" : 2,
+      "alpha" : 1.0,
+      "anchor_from" : "top_middle",
+      "anchor_to" : "top_middle",
+      "bindings" : [
+         {
+            "binding_collection_name" : "",
+            "binding_condition" : "always_when_visible",
+            "binding_type" : "collection_details"
+         }
+      ],
+      "button_mappings" : [],
+      "clip_offset" : [ 0, 0 ],
+      "clips_children" : false,
+      "controls" : [
+         {
+            "default@teachUI.default" : {}
+         },
+         {
+            "hover@teachUI.hover" : {}
+         },
+         {
+            "pressed@teachUI.pressed" : {}
+         },
+         {
+            "button_label@teachUI.button_label" : {}
+         }
+      ],
+      "draggable" : "not_draggable",
+      "enabled" : true,
+      "is_handle_button_move_event" : true,
+      "layer" : 29,
+      "max_size" : [ 0, 0 ],
+      "min_size" : [ 0, 0 ],
+      "offset" : [ 0, 79 ],
+      "priority" : 0,
+      "propagate_alpha" : false,
+      "size" : [ 38, 19 ],
+      "visible" : true
+   },
+   "m2b5@common.button" : {
+      "$control_alpha" : 1.0,
+      "$default_texture" : "textures/ui/gui1",
+      "$hover_texture" : "textures/ui/gui2",
+      "$is_new_nine_slice" : false,
+      "$label_color" : [ 1, 1, 1 ],
+      "$label_font_scale_factor" : 0.8199999928474426,
+      "$label_font_size" : "normal",
+      "$label_layer" : 3,
+      "$label_offset" : [ 0, 0 ],
+      "$label_text" : "功能一",
+      "$nine_slice_buttom" : 0,
+      "$nine_slice_left" : 0,
+      "$nine_slice_right" : 0,
+      "$nine_slice_top" : 0,
+      "$nineslice_size" : [ 0, 0, 0, 0 ],
+      "$pressed_button_name" : "%teachUI.click",
+      "$pressed_texture" : "textures/ui/gui2",
+      "$texture_layer" : 2,
+      "alpha" : 1.0,
+      "anchor_from" : "top_middle",
+      "anchor_to" : "top_middle",
+      "bindings" : [
+         {
+            "binding_collection_name" : "",
+            "binding_condition" : "always_when_visible",
+            "binding_type" : "collection_details"
+         }
+      ],
+      "button_mappings" : [],
+      "clip_offset" : [ 0, 0 ],
+      "clips_children" : false,
+      "controls" : [
+         {
+            "default@teachUI.default" : {}
+         },
+         {
+            "hover@teachUI.hover" : {}
+         },
+         {
+            "pressed@teachUI.pressed" : {}
+         },
+         {
+            "button_label@teachUI.button_label" : {}
+         }
+      ],
+      "draggable" : "not_draggable",
+      "enabled" : true,
+      "is_handle_button_move_event" : true,
+      "layer" : 33,
+      "max_size" : [ 0, 0 ],
+      "min_size" : [ 0, 0 ],
+      "offset" : [ 0, 98 ],
+      "priority" : 0,
+      "propagate_alpha" : false,
+      "size" : [ 38, 19 ],
+      "visible" : true
+   },
+   "m2b6@common.button" : {
+      "$control_alpha" : 1.0,
+      "$default_texture" : "textures/ui/gui1",
+      "$hover_texture" : "textures/ui/gui2",
+      "$is_new_nine_slice" : false,
+      "$label_color" : [ 1, 1, 1 ],
+      "$label_font_scale_factor" : 0.8199999928474426,
+      "$label_font_size" : "normal",
+      "$label_layer" : 3,
+      "$label_offset" : [ 0, 0 ],
+      "$label_text" : "功能一",
+      "$nine_slice_buttom" : 0,
+      "$nine_slice_left" : 0,
+      "$nine_slice_right" : 0,
+      "$nine_slice_top" : 0,
+      "$nineslice_size" : [ 0, 0, 0, 0 ],
+      "$pressed_button_name" : "%teachUI.click",
+      "$pressed_texture" : "textures/ui/gui2",
+      "$texture_layer" : 2,
+      "alpha" : 1.0,
+      "anchor_from" : "top_middle",
+      "anchor_to" : "top_middle",
+      "bindings" : [
+         {
+            "binding_collection_name" : "",
+            "binding_condition" : "always_when_visible",
+            "binding_type" : "collection_details"
+         }
+      ],
+      "button_mappings" : [],
+      "clip_offset" : [ 0, 0 ],
+      "clips_children" : false,
+      "controls" : [
+         {
+            "default@teachUI.default" : {}
+         },
+         {
+            "hover@teachUI.hover" : {}
+         },
+         {
+            "pressed@teachUI.pressed" : {}
+         },
+         {
+            "button_label@teachUI.button_label" : {}
+         }
+      ],
+      "draggable" : "not_draggable",
+      "enabled" : true,
+      "is_handle_button_move_event" : true,
+      "layer" : 37,
+      "max_size" : [ 0, 0 ],
+      "min_size" : [ 0, 0 ],
+      "offset" : [ 0, 117 ],
+      "priority" : 0,
+      "propagate_alpha" : false,
+      "size" : [ 38, 19 ],
+      "visible" : true
+   },
+   "m3b0@common.button" : {
+      "$control_alpha" : 1.0,
+      "$default_texture" : "textures/ui/None",
+      "$hover_texture" : "textures/ui/gui2",
+      "$is_new_nine_slice" : false,
+      "$label_color" : [ 1, 1, 1 ],
+      "$label_font_scale_factor" : 0.8199999928474426,
+      "$label_font_size" : "normal",
+      "$label_layer" : 3,
+      "$label_offset" : [ 0, 0 ],
+      "$label_text" : "功能一",
+      "$nine_slice_buttom" : 0,
+      "$nine_slice_left" : 0,
+      "$nine_slice_right" : 0,
+      "$nine_slice_top" : 0,
+      "$nineslice_size" : [ 0, 0, 0, 0 ],
+      "$pressed_button_name" : "%teachUI.click",
+      "$pressed_texture" : "textures/ui/gui2",
+      "$texture_layer" : 2,
+      "alpha" : 1.0,
+      "anchor_from" : "top_middle",
+      "anchor_to" : "top_middle",
+      "bindings" : [
+         {
+            "binding_collection_name" : "",
+            "binding_condition" : "always_when_visible",
+            "binding_type" : "collection_details"
+         }
+      ],
+      "button_mappings" : [],
+      "clip_offset" : [ 0, 0 ],
+      "clips_children" : false,
+      "controls" : [
+         {
+            "default@teachUI.default" : {}
+         },
+         {
+            "hover@teachUI.hover" : {}
+         },
+         {
+            "pressed@teachUI.pressed" : {}
+         },
+         {
+            "button_label@teachUI.button_label" : {}
+         }
+      ],
+      "draggable" : "not_draggable",
+      "enabled" : true,
+      "is_handle_button_move_event" : true,
+      "layer" : 45,
+      "max_size" : [ 0, 0 ],
+      "min_size" : [ 0, 0 ],
+      "offset" : [ 0, 3 ],
+      "priority" : 0,
+      "propagate_alpha" : false,
+      "size" : [ 38, 19 ],
+      "visible" : true
+   },
+   "m3b1@common.button" : {
+      "$control_alpha" : 1.0,
+      "$default_texture" : "textures/ui/None",
+      "$hover_texture" : "textures/ui/gui2",
+      "$is_new_nine_slice" : false,
+      "$label_color" : [ 1, 1, 1 ],
+      "$label_font_scale_factor" : 0.8199999928474426,
+      "$label_font_size" : "normal",
+      "$label_layer" : 3,
+      "$label_offset" : [ 0, 0 ],
+      "$label_text" : "功能二",
+      "$nine_slice_buttom" : 0,
+      "$nine_slice_left" : 0,
+      "$nine_slice_right" : 0,
+      "$nine_slice_top" : 0,
+      "$nineslice_size" : [ 0, 0, 0, 0 ],
+      "$pressed_button_name" : "%teachUI.click",
+      "$pressed_texture" : "textures/ui/gui2",
+      "$texture_layer" : 2,
+      "alpha" : 1.0,
+      "anchor_from" : "top_middle",
+      "anchor_to" : "top_middle",
+      "bindings" : [
+         {
+            "binding_collection_name" : "",
+            "binding_condition" : "always_when_visible",
+            "binding_type" : "collection_details"
+         }
+      ],
+      "button_mappings" : [],
+      "clip_offset" : [ 0, 0 ],
+      "clips_children" : false,
+      "controls" : [
+         {
+            "default@teachUI.default" : {}
+         },
+         {
+            "hover@teachUI.hover" : {}
+         },
+         {
+            "pressed@teachUI.pressed" : {}
+         },
+         {
+            "button_label@teachUI.button_label" : {}
+         }
+      ],
+      "draggable" : "not_draggable",
+      "enabled" : true,
+      "is_handle_button_move_event" : true,
+      "layer" : 45,
+      "max_size" : [ 0, 0 ],
+      "min_size" : [ 0, 0 ],
+      "offset" : [ 0, 22 ],
+      "priority" : 0,
+      "propagate_alpha" : false,
+      "size" : [ 38, 19 ],
+      "visible" : true
+   },
+   "m3b2@common.button" : {
+      "$control_alpha" : 1.0,
+      "$default_texture" : "textures/ui/None",
+      "$hover_texture" : "textures/ui/gui2",
+      "$is_new_nine_slice" : false,
+      "$label_color" : [ 1, 1, 1 ],
+      "$label_font_scale_factor" : 0.8199999928474426,
+      "$label_font_size" : "normal",
+      "$label_layer" : 3,
+      "$label_offset" : [ 0, 0 ],
+      "$label_text" : "功能三",
+      "$nine_slice_buttom" : 0,
+      "$nine_slice_left" : 0,
+      "$nine_slice_right" : 0,
+      "$nine_slice_top" : 0,
+      "$nineslice_size" : [ 0, 0, 0, 0 ],
+      "$pressed_button_name" : "%teachUI.click",
+      "$pressed_texture" : "textures/ui/gui2",
+      "$texture_layer" : 2,
+      "alpha" : 1.0,
+      "anchor_from" : "top_middle",
+      "anchor_to" : "top_middle",
+      "bindings" : [
+         {
+            "binding_collection_name" : "",
+            "binding_condition" : "always_when_visible",
+            "binding_type" : "collection_details"
+         }
+      ],
+      "button_mappings" : [],
+      "clip_offset" : [ 0, 0 ],
+      "clips_children" : false,
+      "controls" : [
+         {
+            "default@teachUI.default" : {}
+         },
+         {
+            "hover@teachUI.hover" : {}
+         },
+         {
+            "pressed@teachUI.pressed" : {}
+         },
+         {
+            "button_label@teachUI.button_label" : {}
+         }
+      ],
+      "draggable" : "not_draggable",
+      "enabled" : true,
+      "is_handle_button_move_event" : true,
+      "layer" : 45,
+      "max_size" : [ 0, 0 ],
+      "min_size" : [ 0, 0 ],
+      "offset" : [ 0, 41 ],
+      "priority" : 0,
+      "propagate_alpha" : false,
+      "size" : [ 38, 19 ],
+      "visible" : true
+   },
+   "m3b3@common.button" : {
+      "$control_alpha" : 1.0,
+      "$default_texture" : "textures/ui/None",
+      "$hover_texture" : "textures/ui/gui2",
+      "$is_new_nine_slice" : false,
+      "$label_color" : [ 1, 1, 1 ],
+      "$label_font_scale_factor" : 0.8199999928474426,
+      "$label_font_size" : "normal",
+      "$label_layer" : 3,
+      "$label_offset" : [ 0, 0 ],
+      "$label_text" : "功能四",
+      "$nine_slice_buttom" : 0,
+      "$nine_slice_left" : 0,
+      "$nine_slice_right" : 0,
+      "$nine_slice_top" : 0,
+      "$nineslice_size" : [ 0, 0, 0, 0 ],
+      "$pressed_button_name" : "%teachUI.click",
+      "$pressed_texture" : "textures/ui/gui2",
+      "$texture_layer" : 2,
+      "alpha" : 1.0,
+      "anchor_from" : "top_middle",
+      "anchor_to" : "top_middle",
+      "bindings" : [
+         {
+            "binding_collection_name" : "",
+            "binding_condition" : "always_when_visible",
+            "binding_type" : "collection_details"
+         }
+      ],
+      "button_mappings" : [],
+      "clip_offset" : [ 0, 0 ],
+      "clips_children" : false,
+      "controls" : [
+         {
+            "default@teachUI.default" : {}
+         },
+         {
+            "hover@teachUI.hover" : {}
+         },
+         {
+            "pressed@teachUI.pressed" : {}
+         },
+         {
+            "button_label@teachUI.button_label" : {}
+         }
+      ],
+      "draggable" : "not_draggable",
+      "enabled" : true,
+      "is_handle_button_move_event" : true,
+      "layer" : 45,
+      "max_size" : [ 0, 0 ],
+      "min_size" : [ 0, 0 ],
+      "offset" : [ 0, 60.0 ],
+      "priority" : 0,
+      "propagate_alpha" : false,
+      "size" : [ 38, 19 ],
+      "visible" : true
+   },
+   "m3b4@common.button" : {
+      "$control_alpha" : 1.0,
+      "$default_texture" : "textures/ui/None",
+      "$hover_texture" : "textures/ui/gui2",
+      "$is_new_nine_slice" : false,
+      "$label_color" : [ 1, 1, 1 ],
+      "$label_font_scale_factor" : 0.8199999928474426,
+      "$label_font_size" : "normal",
+      "$label_layer" : 3,
+      "$label_offset" : [ 0, 0 ],
+      "$label_text" : "功能五",
+      "$nine_slice_buttom" : 0,
+      "$nine_slice_left" : 0,
+      "$nine_slice_right" : 0,
+      "$nine_slice_top" : 0,
+      "$nineslice_size" : [ 0, 0, 0, 0 ],
+      "$pressed_button_name" : "%teachUI.click",
+      "$pressed_texture" : "textures/ui/gui2",
+      "$texture_layer" : 2,
+      "alpha" : 1.0,
+      "anchor_from" : "top_middle",
+      "anchor_to" : "top_middle",
+      "bindings" : [
+         {
+            "binding_collection_name" : "",
+            "binding_condition" : "always_when_visible",
+            "binding_type" : "collection_details"
+         }
+      ],
+      "button_mappings" : [],
+      "clip_offset" : [ 0, 0 ],
+      "clips_children" : false,
+      "controls" : [
+         {
+            "default@teachUI.default" : {}
+         },
+         {
+            "hover@teachUI.hover" : {}
+         },
+         {
+            "pressed@teachUI.pressed" : {}
+         },
+         {
+            "button_label@teachUI.button_label" : {}
+         }
+      ],
+      "draggable" : "not_draggable",
+      "enabled" : true,
+      "is_handle_button_move_event" : true,
+      "layer" : 45,
+      "max_size" : [ 0, 0 ],
+      "min_size" : [ 0, 0 ],
+      "offset" : [ 0, 79.0 ],
+      "priority" : 0,
+      "propagate_alpha" : false,
+      "size" : [ 38, 19 ],
+      "visible" : true
+   },
+   "m3b5@common.button" : {
+      "$control_alpha" : 1.0,
+      "$default_texture" : "textures/ui/None",
+      "$hover_texture" : "textures/ui/gui2",
+      "$is_new_nine_slice" : false,
+      "$label_color" : [ 1, 1, 1 ],
+      "$label_font_scale_factor" : 0.8199999928474426,
+      "$label_font_size" : "normal",
+      "$label_layer" : 3,
+      "$label_offset" : [ 0, 0 ],
+      "$label_text" : "功能六",
+      "$nine_slice_buttom" : 0,
+      "$nine_slice_left" : 0,
+      "$nine_slice_right" : 0,
+      "$nine_slice_top" : 0,
+      "$nineslice_size" : [ 0, 0, 0, 0 ],
+      "$pressed_button_name" : "%teachUI.click",
+      "$pressed_texture" : "textures/ui/gui2",
+      "$texture_layer" : 2,
+      "alpha" : 1.0,
+      "anchor_from" : "top_middle",
+      "anchor_to" : "top_middle",
+      "bindings" : [
+         {
+            "binding_collection_name" : "",
+            "binding_condition" : "always_when_visible",
+            "binding_type" : "collection_details"
+         }
+      ],
+      "button_mappings" : [],
+      "clip_offset" : [ 0, 0 ],
+      "clips_children" : false,
+      "controls" : [
+         {
+            "default@teachUI.default" : {}
+         },
+         {
+            "hover@teachUI.hover" : {}
+         },
+         {
+            "pressed@teachUI.pressed" : {}
+         },
+         {
+            "button_label@teachUI.button_label" : {}
+         }
+      ],
+      "draggable" : "not_draggable",
+      "enabled" : true,
+      "is_handle_button_move_event" : true,
+      "layer" : 45,
+      "max_size" : [ 0, 0 ],
+      "min_size" : [ 0, 0 ],
+      "offset" : [ 0, 98 ],
+      "priority" : 0,
+      "propagate_alpha" : false,
+      "size" : [ 38, 19 ],
+      "visible" : true
+   },
+   "m3b6@common.button" : {
+      "$control_alpha" : 1.0,
+      "$default_texture" : "textures/ui/None",
+      "$hover_texture" : "textures/ui/gui2",
+      "$is_new_nine_slice" : false,
+      "$label_color" : [ 1, 1, 1 ],
+      "$label_font_scale_factor" : 0.8199999928474426,
+      "$label_font_size" : "normal",
+      "$label_layer" : 3,
+      "$label_offset" : [ 0, 0 ],
+      "$label_text" : "功能七",
+      "$nine_slice_buttom" : 0,
+      "$nine_slice_left" : 0,
+      "$nine_slice_right" : 0,
+      "$nine_slice_top" : 0,
+      "$nineslice_size" : [ 0, 0, 0, 0 ],
+      "$pressed_button_name" : "%teachUI.click",
+      "$pressed_texture" : "textures/ui/gui2",
+      "$texture_layer" : 2,
+      "alpha" : 1.0,
+      "anchor_from" : "top_middle",
+      "anchor_to" : "top_middle",
+      "bindings" : [
+         {
+            "binding_collection_name" : "",
+            "binding_condition" : "always_when_visible",
+            "binding_type" : "collection_details"
+         }
+      ],
+      "button_mappings" : [],
+      "clip_offset" : [ 0, 0 ],
+      "clips_children" : false,
+      "controls" : [
+         {
+            "default@teachUI.default" : {}
+         },
+         {
+            "hover@teachUI.hover" : {}
+         },
+         {
+            "pressed@teachUI.pressed" : {}
+         },
+         {
+            "button_label@teachUI.button_label" : {}
+         }
+      ],
+      "draggable" : "not_draggable",
+      "enabled" : true,
+      "is_handle_button_move_event" : true,
+      "layer" : 45,
+      "max_size" : [ 0, 0 ],
+      "min_size" : [ 0, 0 ],
+      "offset" : [ 0, 117.0 ],
+      "priority" : 0,
+      "propagate_alpha" : false,
+      "size" : [ 38, 19 ],
+      "visible" : true
+   },
+   "main" : {
+      "absorbs_input" : true,
+      "always_accepts_input" : false,
+      "controls" : [
+         {
+            "sight@teachUI.sight" : {}
+         },
+         {
+            "menu1@teachUI.menu1" : {}
+         },
+         {
+            "menu2@teachUI.menu2" : {}
+         },
+         {
+            "menu3@teachUI.menu3" : {}
+         }
+      ],
+      "force_render_below" : false,
+      "is_showing_menu" : true,
+      "render_game_behind" : true,
+      "render_only_when_topmost" : true,
+      "should_steal_mouse" : false,
+      "type" : "screen"
+   },
+   "menu1@common.button" : {
+      "$control_alpha" : 1.0,
+      "$default_texture" : "textures/ui/mainMemu",
+      "$hover_texture" : "textures/ui/mainMemu1",
+      "$is_new_nine_slice" : false,
+      "$label_color" : [ 1, 1, 1 ],
+      "$label_font_scale_factor" : 1.409999966621399,
+      "$label_font_size" : "normal",
+      "$label_layer" : 3,
+      "$label_offset" : [ -28.0, 0.0 ],
+      "$label_text" : "按钮",
+      "$nine_slice_buttom" : 0,
+      "$nine_slice_left" : 0,
+      "$nine_slice_right" : 0,
+      "$nine_slice_top" : 0,
+      "$nineslice_size" : [ 0, 0, 0, 0 ],
+      "$pressed_button_name" : "%teachUI.click",
+      "$pressed_texture" : "textures/ui/mainMemu1",
+      "$texture_layer" : 2,
+      "alpha" : 1.0,
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "bindings" : [
+         {
+            "binding_collection_name" : "",
+            "binding_condition" : "always_when_visible",
+            "binding_type" : "collection_details"
+         }
+      ],
+      "button_mappings" : [],
+      "clip_offset" : [ 0, 0 ],
+      "clips_children" : false,
+      "controls" : [
+         {
+            "default@teachUI.default" : {}
+         },
+         {
+            "hover@teachUI.hover" : {}
+         },
+         {
+            "pressed@teachUI.pressed" : {}
+         },
+         {
+            "button_label@teachUI.button_label" : {}
+         },
+         {
+            "start@teachUI.start" : {}
+         }
+      ],
+      "draggable" : "not_draggable",
+      "enabled" : true,
+      "is_handle_button_move_event" : true,
+      "layer" : 1,
+      "max_size" : [ 0, 0 ],
+      "min_size" : [ 0, 0 ],
+      "offset" : [ 0, 0 ],
+      "priority" : 0,
+      "propagate_alpha" : false,
+      "size" : [ 130, 33 ],
+      "visible" : true
+   },
+   "menu2@common.button" : {
+      "$control_alpha" : 1.0,
+      "$default_texture" : "textures/ui/menu2",
+      "$hover_texture" : "textures/ui/menu2",
+      "$is_new_nine_slice" : false,
+      "$label_color" : [ 1, 1, 1 ],
+      "$label_font_scale_factor" : 0.8199999928474426,
+      "$label_font_size" : "large",
+      "$label_layer" : 3,
+      "$label_offset" : [ 1.0, 67.0 ],
+      "$label_text" : "x",
+      "$nine_slice_buttom" : 0,
+      "$nine_slice_left" : 0,
+      "$nine_slice_right" : 0,
+      "$nine_slice_top" : 0,
+      "$nineslice_size" : [ 0, 0, 0, 0 ],
+      "$pressed_button_name" : "%teachUI.click",
+      "$pressed_texture" : "textures/ui/menu2",
+      "$texture_layer" : 2,
+      "alpha" : 1.0,
+      "anchor_from" : "right_middle",
+      "anchor_to" : "right_middle",
+      "bindings" : [
+         {
+            "binding_collection_name" : "",
+            "binding_condition" : "always_when_visible",
+            "binding_type" : "collection_details"
+         }
+      ],
+      "button_mappings" : [],
+      "clip_offset" : [ 0, 0 ],
+      "clips_children" : false,
+      "controls" : [
+         {
+            "m2b0@teachUI.m2b0" : {}
+         },
+         {
+            "default@teachUI.default" : {}
+         },
+         {
+            "hover@teachUI.hover" : {}
+         },
+         {
+            "m2b1@teachUI.m2b1" : {}
+         },
+         {
+            "m2b2@teachUI.m2b2" : {}
+         },
+         {
+            "m2b3@teachUI.m2b3" : {}
+         },
+         {
+            "m2b4@teachUI.m2b4" : {}
+         },
+         {
+            "m2b5@teachUI.m2b5" : {}
+         },
+         {
+            "m2b6@teachUI.m2b6" : {}
+         },
+         {
+            "pressed@teachUI.pressed" : {}
+         },
+         {
+            "button_label@teachUI.button_label" : {}
+         }
+      ],
+      "draggable" : "not_draggable",
+      "enabled" : true,
+      "is_handle_button_move_event" : true,
+      "layer" : 9,
+      "max_size" : [ 0, 0 ],
+      "min_size" : [ 0, 0 ],
+      "offset" : [ -9, 0 ],
+      "priority" : 0,
+      "propagate_alpha" : false,
+      "size" : [ 43, 170 ],
+      "visible" : true
+   },
+   "menu3@common.button" : {
+      "$control_alpha" : 1.0,
+      "$default_texture" : "textures/ui/menu2",
+      "$hover_texture" : "textures/ui/menu2",
+      "$is_new_nine_slice" : false,
+      "$label_color" : [ 1, 1, 1 ],
+      "$label_font_scale_factor" : 0.7599999904632568,
+      "$label_font_size" : "large",
+      "$label_layer" : 3,
+      "$label_offset" : [ 1.0, 67.0 ],
+      "$label_text" : "x",
+      "$nine_slice_buttom" : 0,
+      "$nine_slice_left" : 0,
+      "$nine_slice_right" : 0,
+      "$nine_slice_top" : 0,
+      "$nineslice_size" : [ 0, 0, 0, 0 ],
+      "$pressed_button_name" : "%teachUI.click",
+      "$pressed_texture" : "textures/ui/menu2",
+      "$texture_layer" : 2,
+      "alpha" : 1.0,
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "bindings" : [
+         {
+            "binding_collection_name" : "",
+            "binding_condition" : "always_when_visible",
+            "binding_type" : "collection_details"
+         }
+      ],
+      "button_mappings" : [],
+      "clip_offset" : [ 0, 0 ],
+      "clips_children" : false,
+      "controls" : [
+         {
+            "default@teachUI.default" : {}
+         },
+         {
+            "hover@teachUI.hover" : {}
+         },
+         {
+            "m3b1@teachUI.m3b1" : {}
+         },
+         {
+            "m3b2@teachUI.m3b2" : {}
+         },
+         {
+            "m3b3@teachUI.m3b3" : {}
+         },
+         {
+            "m3b4@teachUI.m3b4" : {}
+         },
+         {
+            "m3b5@teachUI.m3b5" : {}
+         },
+         {
+            "m3b6@teachUI.m3b6" : {}
+         },
+         {
+            "pressed@teachUI.pressed" : {}
+         },
+         {
+            "button_label@teachUI.button_label" : {}
+         },
+         {
+            "m3b0@teachUI.m3b0" : {}
+         }
+      ],
+      "draggable" : "not_draggable",
+      "enabled" : true,
+      "is_handle_button_move_event" : true,
+      "layer" : 41,
+      "max_size" : [ 0, 0 ],
+      "min_size" : [ 0, 0 ],
+      "offset" : [ 143.0, 1.0 ],
+      "priority" : 0,
+      "propagate_alpha" : false,
+      "size" : [ 43, 170 ],
+      "visible" : true
+   },
+   "namespace" : "teachUI",
+   "pressed" : {
+      "alpha" : "$control_alpha",
+      "is_new_nine_slice" : "$is_new_nine_slice",
+      "layer" : "$texture_layer",
+      "nine_slice_buttom" : "$nine_slice_buttom",
+      "nine_slice_left" : "$nine_slice_left",
+      "nine_slice_right" : "$nine_slice_right",
+      "nine_slice_top" : "$nine_slice_top",
+      "nineslice_size" : "$nineslice_size",
+      "texture" : "$pressed_texture",
+      "type" : "image"
+   },
+   "sight" : {
+      "alpha" : 1.0,
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "clip_direction" : "left",
+      "clip_offset" : [ 0, 0 ],
+      "clip_ratio" : 0.0,
+      "clips_children" : false,
+      "enabled" : true,
+      "fill" : false,
+      "grayscale" : false,
+      "is_new_nine_slice" : false,
+      "keep_ratio" : true,
+      "layer" : 0,
+      "max_size" : [ 0, 0 ],
+      "min_size" : [ 0, 0 ],
+      "nine_slice_buttom" : 0,
+      "nine_slice_left" : 0,
+      "nine_slice_right" : 0,
+      "nine_slice_top" : 0,
+      "nineslice_size" : [ 0, 0, 0, 0 ],
+      "offset" : [ 0, 0 ],
+      "priority" : 0,
+      "propagate_alpha" : false,
+      "size" : [ 9, 9 ],
+      "texture" : "textures/ui/sight",
+      "type" : "image",
+      "uv" : [ 0, 0 ],
+      "uv_size" : [ 9, 9 ],
+      "visible" : true
+   },
+   "start@common.button" : {
+      "$control_alpha" : 1.0,
+      "$default_texture" : "textures/ui/star",
+      "$hover_texture" : "textures/ui/star1",
+      "$is_new_nine_slice" : false,
+      "$label_color" : [ 1, 1, 1 ],
+      "$label_font_scale_factor" : 1.0,
+      "$label_font_size" : "large",
+      "$label_layer" : 3,
+      "$label_offset" : [ 0, 0 ],
+      "$label_text" : "",
+      "$nine_slice_buttom" : 0,
+      "$nine_slice_left" : 0,
+      "$nine_slice_right" : 0,
+      "$nine_slice_top" : 0,
+      "$nineslice_size" : [ 0, 0, 0, 0 ],
+      "$pressed_button_name" : "%teachUI.click",
+      "$pressed_texture" : "textures/ui/star1",
+      "$texture_layer" : 2,
+      "alpha" : 1.0,
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "bindings" : [
+         {
+            "binding_collection_name" : "",
+            "binding_condition" : "always_when_visible",
+            "binding_type" : "collection_details"
+         }
+      ],
+      "button_mappings" : [],
+      "clip_offset" : [ 0, 0 ],
+      "clips_children" : false,
+      "controls" : [
+         {
+            "default@teachUI.default" : {}
+         },
+         {
+            "hover@teachUI.hover" : {}
+         },
+         {
+            "pressed@teachUI.pressed" : {}
+         },
+         {
+            "button_label@teachUI.button_label" : {}
+         }
+      ],
+      "draggable" : "not_draggable",
+      "enabled" : true,
+      "is_handle_button_move_event" : true,
+      "layer" : 5,
+      "max_size" : [ 0, 0 ],
+      "min_size" : [ 0, 0 ],
+      "offset" : [ 17, 0 ],
+      "priority" : 0,
+      "propagate_alpha" : false,
+      "size" : [ 20, 20 ],
+      "visible" : true
+   }
+}

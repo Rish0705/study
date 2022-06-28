@@ -1,0 +1,81 @@
+{
+  "particleeffect": {
+    "rotationspeed": {
+      "max": "0.0",
+      "min": "0.0"
+    },
+    "activetime": {
+      "value": "1.0"
+    },
+    "inactivetime": {
+      "value": "0.0"
+    },
+    "timetolive": {
+      "max": "1.8",
+      "min": "1.4"
+    },
+    "particlesize": {
+      "max": "0.1 0.1",
+      "min": "0.05 0.05"
+    },
+    "velocity": {
+      "max": "0.9",
+      "min": "0.5"
+    },
+    "enableloop": {
+      "enable": "false"
+    },
+    "sizedelta": {
+      "add": "0.1",
+      "mul": "0.87"
+    },
+    "rotation": {
+      "max": "0.0",
+      "min": "0.0"
+    },
+    "faceCameraMode": {
+      "value": "Rotate XYZ"
+    },
+    "scaled": {
+      "enable": "true"
+    },
+    "relative": {
+      "enable": "false"
+    },
+    "sorted": {
+      "enable": "false"
+    },
+    "fixedscreensize": {
+      "enable": "false"
+    },
+    "texture": {
+      "name": "textures/particle/end"
+    },
+    "blend": {
+      "name": "blend"
+    },
+    "dampingforce": {
+      "value": "0.2"
+    },
+    "numparticles": {
+      "value": "50"
+    },
+    "emittersize": {
+      "value": "0.0 0.0 0.0"
+    },
+    "emissionrate": {
+      "max": "1.0",
+      "min": "0.1"
+    },
+    "material": {
+      "name": "Materials/Particle.xml"
+    },
+    "constantforce": {
+      "value": "0.0 -2.0 0.0"
+    },
+    "direction": {
+      "max": "1.0 1.0 1.0",
+      "min": "-1.0 -1.0 -1.0"
+    }
+  }
+}
